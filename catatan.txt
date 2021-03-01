@@ -1,0 +1,7 @@
+@$nama_toko = "TB Contoh Jaya";
+@$alamat_toko = "Jalan Raya Bogor";
+
+<td colspan="2"><img src="../img/logo1.png" alt="logo" width="160" height="90"></td>
+<td colspan="5">
+<h1 style="margin:0"><?php echo $nama_toko ?></h1>
+<h4 style="margin:0;margin-top:4px;"><?php echo $alamat_toko ?></h4>

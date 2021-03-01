@@ -59,7 +59,7 @@ if (isset($_POST['blogin'])) {
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Aplikasi Inventory : TB Contoh Jaya</title>
+	<title>APP TOMAT</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="fonts/glyphicons-halflings-regular.svg">
 	<link rel="icon" href="img/logo1.png">
@@ -81,9 +81,9 @@ if (isset($_POST['blogin'])) {
 			<div class="panel-success" style="margin-top:120px;">
 				<div class="panel-heading" style="padding:50px;">
 					<div class="col-md-1"></div>
-					<div style="font-size:200%;"><strong>TB Contoh Jaya</strong></S></div>
+					<div style="font-size:200%;"><strong>APP TOMAT</strong></S></div>
 					<div class="col-md-1"></div>
-					<div style="font-size:100%;">A P L I K A S I &nbsp; I N V E N T O R Y &nbsp; & &nbsp; K A S I R</div>
+					<div style="font-size:100%;">A P L I K A S I &nbsp; P E N G E L O L A A N &nbsp; T O K O &nbsp; M A T E R I A L</div>
 				</div>
 				<div class="panel-body">
 					<form method="post">
@@ -125,7 +125,7 @@ if (isset($_POST['blogin'])) {
 					</form>
 				</div>
 				<div class="panel-footer" align="center">
-					&copy; 2020
+					&copy; <small>copyright 2020</small>
 				</div>
 			</div>
 		</div>

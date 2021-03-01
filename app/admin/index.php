@@ -92,10 +92,47 @@ if (isset($_GET['logout'])) {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.php">A D M I N</a>
+
 		</div>
 		<!-- akhir dari navbar atas -->
 		<div class="navbar-collapse collaspse">
+			<!-- <ul class="nav navbar-nav">
+				<li class="dropdown" id="hov">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="transaksi"><div class="glyphicon glyphicon-shopping-cart"></div>&nbsp;&nbsp;TRANSAKSI&nbsp; <span class="caret"></span></a>
+					<ul class="dropdown-menu" aria-labelledby="transaksi">
+						<li>
+							<a href="?menu=daftarpenjualan">Daftar Transaksi Penjualan</a>
+						</li>
+						<li>
+							<a href="?menu=penjualanbaru">Transaksi Baru</a>
+						</li>
+					</ul>
+				</li>
+			</ul> -->
+			<ul class="nav navbar-nav">
+				<li class="dropdown" id="hov">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="akun">
+						<div class="glyphicon glyphicon-user"></div>&nbsp;&nbsp;<?php echo $_SESSION['nama']; ?>&nbsp;<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="akun">
+						<li>
+							<a href="?menu=profil">
+								<div class="glyphicon glyphicon-cog"></div>&nbsp;&nbsp;Profil
+							</a>
+						</li>
+						<li>
+							<a href="?logout" onclick="return confirm('Apakah Anda yakin akan keluar dari akun ?');">
+								<div class="glyphicon glyphicon-log-out"></div>&nbsp;&nbsp;Logout
+							</a>
+						</li>
+						<li>
+							<a href="index.php">
+								<div class="glyphicon glyphicon-home"></div>&nbsp;&nbsp;Home Admin
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
 			<ul class="nav navbar-nav">
 				<li class="dropdown" id="hov">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="input">
@@ -126,19 +163,6 @@ if (isset($_GET['logout'])) {
 					</ul>
 				</li>
 			</ul>
-			<!-- <ul class="nav navbar-nav">
-				<li class="dropdown" id="hov">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="transaksi"><div class="glyphicon glyphicon-shopping-cart"></div>&nbsp;&nbsp;TRANSAKSI&nbsp; <span class="caret"></span></a>
-					<ul class="dropdown-menu" aria-labelledby="transaksi">
-						<li>
-							<a href="?menu=daftarpenjualan">Daftar Transaksi Penjualan</a>
-						</li>
-						<li>
-							<a href="?menu=penjualanbaru">Transaksi Baru</a>
-						</li>
-					</ul>
-				</li>
-			</ul> -->
 			<ul class="nav navbar-nav">
 				<li class="dropdown" id="hov">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="laporan">
@@ -173,34 +197,15 @@ if (isset($_GET['logout'])) {
 					</ul>
 				</li>
 			</ul>
-			<ul class="nav navbar-nav navbar-right" style="margin-right:50px;">
-				<li class="dropdown" id="hov">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="akun">
-						<div class="glyphicon glyphicon-user"></div>&nbsp;&nbsp;<?php echo $_SESSION['nama']; ?>&nbsp;<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="akun">
-						<li>
-							<a href="?menu=profil">
-								<div class="glyphicon glyphicon-cog"></div>&nbsp;&nbsp;Profil
-							</a>
-						</li>
-						<li>
-							<a href="?logout" onclick="return confirm('Apakah Anda yakin akan keluar dari akun ?');">
-								<div class="glyphicon glyphicon-log-out"></div>&nbsp;&nbsp;Logout
-							</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
 
 
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<h4><a style="text-decoration:none;color:white;margin-right:30px;margin-top:10px;" class="nav navbar-nav navbar-right">
+					<small><a style="text-decoration:none;color:white;margin-right:30px;margin-top:10px;" class="nav navbar-nav navbar-right">
 							<script language="javascript">
 								document.write(tanggallengkap);
 							</script>
-					</h4></a>
+					</small></a>
 				</li>
 			</ul>
 		</div>

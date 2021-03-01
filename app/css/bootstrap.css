@@ -3176,26 +3176,26 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #18bc9c;
-  border-color: #18bc9c;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #ffffff;
-  background-color: #128f76;
-  border-color: #0a4b3e;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 .btn-success:hover {
-  color: #ffffff;
-  background-color: #128f76;
-  border-color: #11866f;
+  color: #0e0404;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -3207,8 +3207,8 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #ffffff;
-  background-color: #0e6f5c;
-  border-color: #0a4b3e;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3224,11 +3224,11 @@ fieldset[disabled] .btn-success:focus,
 .btn-success.disabled.focus,
 .btn-success[disabled].focus,
 fieldset[disabled] .btn-success.focus {
-  background-color: #18bc9c;
-  border-color: #18bc9c;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 .btn-success .badge {
-  color: #18bc9c;
+  color: #ecf0f1;
   background-color: #ffffff;
 }
 .btn-info {
@@ -3403,7 +3403,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #18bc9c;
+  color: #ecf0f1;
   font-weight: normal;
   border-radius: 0;
 }
@@ -5726,9 +5726,9 @@ button.list-group-item-danger.active:focus {
   border-color: #18bc9c;
 }
 .panel-success > .panel-heading {
-  color: #ffffff;
-  background-color: #18bc9c;
-  border-color: #18bc9c;
+  color: #110909;
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
 }
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #18bc9c;
